@@ -2,12 +2,17 @@
 ECG-ID Database loader (PhysioNet ecgiddb/1.0.0).
 
 Used for Re-Identification robustness experiments. The database contains
-310 ECG recordings from 90 subjects, 20 s each at 500 Hz, with 2-20 sessions
+310 ECG recordings from 90 subjects, 20 s each at 500 Hz, with 1-22 sessions
 per subject collected over up to 6 months.
 
 This is a complementary dataset to MIT-BIH for re-ID:
   * MIT-BIH: 22 (or 44) patients, but intra-recording temporal split
   * ECG-ID:  90 subjects, multi-session split (different days)
+
+Of the 90 subjects, `build_ecgid_split` uses the 89 with at least two
+recordings (`min_sessions=2`): a session-disjoint split needs one session to
+train on and one to be evaluated against, and Person_74 has only a single
+recording. The chance level quoted for this corpus is therefore 1/89.
 
 The session-based split is the harder benchmark — the attacker must
 re-identify a subject across recording sessions, not just across time
