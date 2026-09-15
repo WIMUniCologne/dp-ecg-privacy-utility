@@ -1,0 +1,26 @@
+# Recordings are not distributed with this repository; see data/README.md.
+data/*
+!data/README.md
+
+# Per-run artefacts. The aggregated results the paper reports are the CSVs in
+# results/ and the figures in results/figures/, both of which are tracked.
+*.pkl
+*.log
+*.csv
+!results/*.csv
+
+# Run logs and console dumps, but not the documentation or the pinned deps.
+*.txt
+!requirements.txt
+!**/README.txt
+
+# Python
+*.pyc
+**/__pycache__/
+*.ipynb_checkpoints
+
+# The manuscript is not distributed here; see the citation in README.md.
+paper/
+
+# OS
+.DS_Store

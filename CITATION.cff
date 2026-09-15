@@ -1,0 +1,40 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite both the software and the paper."
+title: "DP-ECG: differential privacy on raw ECG signals"
+abstract: >-
+  Code and aggregated results for an empirical study of the privacy-utility
+  trade-off when data-level differential privacy is applied directly to raw
+  electrocardiogram signals rather than to model gradients.
+type: software
+license: MIT
+repository-code: "https://github.com/WIMUniCologne/dp-ecg-privacy-utility"
+authors:
+  - family-names: Rahlmeier
+    given-names: Tim
+  - family-names: Wolf
+    given-names: Simon
+  - family-names: Beck
+    given-names: Ricarda
+  - family-names: Bui
+    given-names: Cong Minh
+  - family-names: Schoder
+    given-names: Detlef
+preferred-citation:
+  type: conference-paper
+  title: >-
+    The Missing Sweet Spot: Quantifying the Privacy and Utility Cost of Sharing
+    Raw ECG
+  collection-title: >-
+    Proceedings of the Hawaii International Conference on System Sciences
+    (HICSS-60)
+  authors:
+    - family-names: Rahlmeier
+      given-names: Tim
+    - family-names: Wolf
+      given-names: Simon
+    - family-names: Beck
+      given-names: Ricarda
+    - family-names: Bui
+      given-names: Cong Minh
+    - family-names: Schoder
+      given-names: Detlef
