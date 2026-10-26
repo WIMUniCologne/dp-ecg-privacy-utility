@@ -576,10 +576,10 @@ demographic-label parsing, and the subject-disjoint split invariant:
 
 If you use this code, please cite the paper:
 
-> Rahlmeier, T., Wolf, S., Beck, R., Bui, C. M., & Schoder, D. The Missing Sweet
-> Spot: Quantifying the Privacy and Utility Cost of Sharing Raw ECG. In
-> *Proceedings of the Hawaii International Conference on System Sciences
-> (HICSS-60)*.
+> Rahlmeier, T., Wolf, S. M., Beck, R., Bui, C. M., & Schoder, D. (2027). The
+> Missing Sweet Spot: Quantifying the Privacy and Utility Cost of Sharing Raw
+> ECG. In *Proceedings of the Hawaii International Conference on System
+> Sciences (HICSS-60)*.
 
 A machine-readable form is in [`CITATION.cff`](CITATION.cff). HICSS proceedings
 are published in the University of Hawai'i ScholarSpace repository, where the

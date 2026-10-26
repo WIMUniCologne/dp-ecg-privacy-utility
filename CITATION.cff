@@ -12,7 +12,7 @@ authors:
   - family-names: Rahlmeier
     given-names: Tim
   - family-names: Wolf
-    given-names: Simon
+    given-names: Simon Maximilian
   - family-names: Beck
     given-names: Ricarda
   - family-names: Bui
@@ -27,11 +27,12 @@ preferred-citation:
   collection-title: >-
     Proceedings of the Hawaii International Conference on System Sciences
     (HICSS-60)
+  year: 2027
   authors:
     - family-names: Rahlmeier
       given-names: Tim
     - family-names: Wolf
-      given-names: Simon
+      given-names: Simon Maximilian
     - family-names: Beck
       given-names: Ricarda
     - family-names: Bui
